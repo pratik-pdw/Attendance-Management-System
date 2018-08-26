@@ -1,0 +1,29 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style-type:none;
+  margin: 0px;
+  padding: 10px;
+
+
+}
+li{
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display:inline;
+}
+.navbar{
+  background: black;
+  color: white;
+  font-size: 25px;
+  text-align: left;
+}
+
+@media screen and(max-width:412px){
+  li{
+  display:block;
+}
+}

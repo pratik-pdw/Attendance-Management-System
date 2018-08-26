@@ -1,0 +1,114 @@
+html,body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.jumbotron img{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.card{
+  background: #3e4042;
+  border-radius : 20px;
+}
+.btn {
+  border-radius: 12px;
+}
+.display-card{
+	color: white;
+}
+.form-group{
+	margin-top: 18px;
+}
+i{
+	position: absolute;
+    top: 14%;
+    left: 85%;
+
+}
+
+input[type=date]{
+	    font-size: 20px;
+    border: none;
+    margin-left: 15px;
+    position: relative;
+    padding: 10px;
+    top: -8px;
+    background: #c4c4c4;
+}
+
+
+
+@media screen and (max-width:412px){
+	.jumbotron h1{
+		font-size:40px;
+	}
+	.jumbotron p{
+		font-size:20px
+	}
+	.display-card #instructor-card{
+		margin-bottom:15px;
+	}
+	.display-card #instructor-login{
+		margin-bottom:15px;
+	}
+	#instructor-login h1{
+			font-size:32px;	
+	}
+	#instructor-login i{
+			margin-top:-5px;
+	}
+/*Student Card and Student-login css*/
+	.display-card #student-card{
+		margin-bottom:15px;
+	}
+	.display-card #student-login{
+		margin-bottom:15px;
+	}
+	#student-login h1{
+			font-size:32px;	
+	}
+	#student-login i{
+			margin-top:-5px;
+	}
+}
+
+
+@media screen and (max-width:800px){
+	.jumbotron h1{
+		font-size:45px;
+	}
+	.jumbotron p{
+		font-size:20px
+	}
+	.display-card #instructor-card{
+		margin-bottom:15px;
+	}
+	.display-card #instructor-login{
+		margin-bottom:15px;
+	}
+	#instructor-login h1{
+			font-size:32px;	
+	}
+	#instructor-login i{
+			margin-top:-5px;
+	}
+/*Student Card and Student-login css*/
+	.display-card #student-card{
+		margin-bottom:15px;
+	}
+	.display-card #student-login{
+		margin-bottom:15px;
+	}
+	#student-login h1{
+			font-size:32px;	
+	}
+	#student-login i{
+			margin-top:-5px;
+	} 
+}
